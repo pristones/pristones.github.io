@@ -15,8 +15,7 @@ author :
   name : Pristones 
   email : developer@pristones.com
   github : pristones
-  twitter : username
-  feedburner : feedname
+  feedname : Pristones 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -83,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : pristonesdev 
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-21468998-2'
     getclicky :
       site_id : 
     mixpanel :
@@ -116,7 +115,22 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : all
+    twitter :
+      size : 80
+      via :
+      count :
+    facebook :
+      appid : 596272450462143 
+      layout : button_count
+      faces : false
+      width : 90
+    googleplus :
+      size : medium
+      width : 80
+      annotation : bubble
+    linkedin :
+      counter : right
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
